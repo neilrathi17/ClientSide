@@ -40,6 +40,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   
     return (
       <>
+      console.log(posts)
         {posts.map(
           ({
             _id,
